@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 229, 216);
+    display: flex;
+    justify-content: center;
+}
+.to_do_list{
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow :0 10px 15px rgb(0, 0, 0,0.3);
+}
+.input_area{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    
+}
+.text{
+    flex-grow: 1;
+    border: none;
+    background-color: rgb(220, 203, 109);
+    padding: 15px 15px;
+    outline: none;
+}
+.button{
+    border: none;
+    background-color: rgb(195, 136, 81);
+    color: rgb(97, 67, 33);
+    padding: 10px 10px;  
+    cursor: pointer;               
+    
+}
+.list{
+    padding: 0px;
+    list-style-type: none;
+}
+.list li{
+    display: flex;
+    padding:10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+label{
+    flex-grow: 1;
+}
+.checkbox{
+    margin-right: 10px;
+}
+.trash_button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.trash_button:hover{
+    opacity: 1;
+}
